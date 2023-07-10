@@ -1,14 +1,17 @@
-#Intro React 
+# Intro React 
 
 
-##When was it done? 
-10/07/2023 -> 14/07/2023
+## When was it done? 
 
-##What is it?
+10/07/2023 to  14/07/2023
+
+## What is it?
+
 Project realised during my formation at BeCode
 
 
-##Done By 
+## Done By 
+
 Pauline Neuville
 
 ## Link : 
