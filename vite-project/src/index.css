@@ -5,7 +5,8 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  background: rgb(63,94,251);
+  background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -23,6 +24,26 @@ a:hover {
   color: #535bf2;
 }
 
+#root {
+  background:rgb(252,70,107,1);
+  border-radius:2%;
+  width: 400px;
+  height:700px;
+  border:1px solid #c3e905;
+  box-shadow: 0px 0px 25px #c3e905;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: .5s;
+
+}
+#root:hover {
+  
+  box-shadow: 0 0 5px #ffee10;
+  
+}
+
 body {
   margin: 0;
   display: flex;
@@ -31,28 +52,25 @@ body {
   min-height: 100vh;
 }
 
+.Title {
+  border-radius: 5%;
+  margin: 0 auto;
+  
+}
+
+.AddToDo {
+ padding: 20px;
+
+}
+
+
+li {
+  list-style: none;
+}
+
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
-}
-
-button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
-  cursor: pointer;
-  transition: border-color 0.25s;
-}
-button:hover {
-  border-color: #646cff;
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
 }
 
 @media (prefers-color-scheme: light) {
