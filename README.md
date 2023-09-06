@@ -9,6 +9,10 @@
 
 Project realised during my formation at BeCode
 
+## Languages used
+
+JavaScript
+
 
 ## Done By 
 
